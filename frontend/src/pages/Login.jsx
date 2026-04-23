@@ -10,21 +10,44 @@ export default function Login() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const { data } = await API.post("/login", form);
-        login(data);
-        navigate("/dashboard");
+
+        try {
+            const { data } = await API.post("/login", form);
+            login(data);
+            navigate("/dashboard");
+        } catch (err) {
+            alert(err.response?.data?.message || "Invalid credentials");
+        }
     };
 
     return (
         <div className="auth-container">
             <form onSubmit={handleSubmit} className="card">
                 <h2>Login</h2>
-                <input type="email" placeholder="Email" required
-                    onChange={(e) => setForm({ ...form, email: e.target.value })} />
-                <input type="password" placeholder="Password" required
-                    onChange={(e) => setForm({ ...form, password: e.target.value })} />
+
+                <input
+                    type="email"
+                    placeholder="Email"
+                    required
+                    onChange={(e) =>
+                        setForm({ ...form, email: e.target.value })
+                    }
+                />
+
+                <input
+                    type="password"
+                    placeholder="Password"
+                    required
+                    onChange={(e) =>
+                        setForm({ ...form, password: e.target.value })
+                    }
+                />
+
                 <button>Login</button>
-                <p>New user? <Link to="/register">Register</Link></p>
+
+                <p>
+                    New user? <Link to="/register">Register</Link>
+                </p>
             </form>
         </div>
     );
