@@ -43,7 +43,7 @@ A full-stack web application designed to help students **submit, track, search, 
   ## 🌐 Deployment
 
 - 🚀 **Frontend:** [Live Application](https://student-grievance-management-system-1-679x.onrender.com)
-- ⚙️ **Backend API:** [Backend](https://student-grievance-management-system-1-679x.onrender.com)
+- ⚙️ **Backend API:** [Backend](https://student-grievance-management-system-w4y5.onrender.com)
 
 ### Clone Repository
 
