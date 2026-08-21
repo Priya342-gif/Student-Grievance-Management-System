@@ -40,6 +40,11 @@ A full-stack web application designed to help students **submit, track, search, 
 - MongoDB / MongoDB Atlas
 - Git
 
+  ## 🌐 Deployment
+
+- 🚀 **Frontend:** [Live Application](https://your-frontend-link.com)
+- ⚙️ **Backend API:** [Backend](https://student-grievance-management-system-1-679x.onrender.com)
+
 ### Clone Repository
 
 ```bash
@@ -89,10 +94,7 @@ Student-Grievance-Management-System/
 │
 └── README.md
 
-## 🌐 Deployment
 
-- 🚀 **Frontend:** [Live Application](https://your-frontend-link.com)
-- ⚙️ **Backend API:** [Backend](https://student-grievance-management-system-1-679x.onrender.com)
 
 👩‍💻 Author
 
