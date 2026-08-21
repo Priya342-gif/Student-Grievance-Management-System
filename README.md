@@ -89,6 +89,11 @@ Student-Grievance-Management-System/
 │
 └── README.md
 
+## 🌐 Deployment
+
+- 🚀 **Frontend:** [Live Application](https://your-frontend-link.com)
+- ⚙️ **Backend API:** [Backend](https://student-grievance-management-system-1-679x.onrender.com)
+
 👩‍💻 Author
 
 Priya Chauhan
